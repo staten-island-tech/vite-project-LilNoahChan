@@ -1,5 +1,5 @@
 import "../styles/style.css"
-
+// export { menu } from "./menu";
 
 document.querySelector('#app').innerHTML = `
     <h1>Hello???</h1>
