@@ -97,7 +97,7 @@ button:focus-visible {
 }
 
  */
-@import url(variables.css);
+/* @import url(variables.css);
  #app{
   font-family: Avenir, Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -105,4 +105,31 @@ button:focus-visible {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  height: 100vh;
+  width: 100vw;
+ }
+ .animation{
+  background-color: blue;
+  height: 90vh;
+ }
+ .header-animation{
+  font-size: 60px;
+  text-align: center;
+ } */
+
+ html,
+ body,
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+ }
+
+ :root{
+  --light-blue: #2998ff;
+ }
+
+ .hero{
+  background-color: var(--light-blue);
  }
