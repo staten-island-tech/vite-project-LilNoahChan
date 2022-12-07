@@ -24,11 +24,11 @@ body,
   --h4: 2.25rem;
   --h5: 1.5rem;
 }
-.warm {
+.dark {
   --primary: var(--blackish);
   --secondary: var(--gray);
 }
-.cool {
+.light {
   --primary: var(--white);
   --secondary: var(--really-light-grey);
 }

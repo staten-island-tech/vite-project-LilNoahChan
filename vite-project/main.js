@@ -1,17 +1,17 @@
 import "/styles/style.css";
-import { carsData } from "./js/second.js";
-console.log(carsData);
+import { cars} from "./js/cars.js";
+console.log(cars);
 
 
-carsData.forEach(carsData => {
+carsData.forEach(cars => {
     document.getElementById("products").insertAdjacentHTML
         ("beforeend",
             `
       <div id="productCard">
-      <h2>${carsData.name}</h2>
-      <p><img src=${carsData.imgURL}></p>
-      <p>Type: ${carsData.type}</p>
-      <p>Price: ${carsData.price}</p>
+      <h2>${cars.name}</h2>
+      <p><img src=${cars.imgURL}></p>
+      <p>Year: ${cars.year}</p>
+      <p>Price: ${cars.cost}</p>
     `
         )
 });
