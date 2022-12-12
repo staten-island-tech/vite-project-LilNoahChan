@@ -83,7 +83,7 @@ h5 {
   box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
 
-.container {
+#container {
   display: flex;
   padding: 30px;
   flex-wrap: wrap;
