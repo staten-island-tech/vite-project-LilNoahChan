@@ -37,7 +37,7 @@ body,
 }
 .main {
   background-color: var(--secondary);
-  height: 90vh;
+  height:max-content;
 }
 
 h1 {
@@ -85,8 +85,24 @@ h5 {
 
 #container {
   display: flex;
-  padding: 30px;
   flex-wrap: wrap;
-  justify-content: space-around;
-  border: 
+  justify-content: center;
+  margin: 2%;
+}
+
+.inner{
+background-color: var(--secondary);
+border: 20px solid;
+border-radius: 6%;
+width: 62rem;
+height: 70rem;
+margin: 2%;
+font-size: 6rem;
+}
+
+img {
+  width: 80%;
+  height: 70%;
+  margin: 10%;
+}
 

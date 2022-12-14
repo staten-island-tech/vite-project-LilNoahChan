@@ -8,9 +8,9 @@ const commands = {
         cars.forEach(cars => {DOMselectors.box.insertAdjacentHTML(
               "beforeend",
               `
-                <div id="container">
+                <div id="inner">
                 <h2>${cars.name}</h2>
-                <p><img src=${cars.imgURL}></p>
+                <p><img class" src=${cars.imgURL}></p>
                 <p>Year: ${cars.year}</p>
                 <p>Cost: ${cars.cost}</p>
                 </div>

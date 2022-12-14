@@ -27,7 +27,7 @@ const cars = [
         name: "Citroen C2",
         year: 1998,
         cost: 18000,
-        imgURL: "https://www.citroenorigins.fr/sites/default/files/styles/320/public/c3_00_1620x1000.png?itok=WRKS2S3L",
+        imgURL: "https://www.citroenorigins.fr/sites/default/files/styles/320/public/c3_00_1620x1000.png?itok=WRKS2S3L.png",
     },
     {
         name: "Peugeot 407",
