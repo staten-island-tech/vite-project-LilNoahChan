@@ -10,7 +10,7 @@ const commands = {
               `
                 <div id="inner">
                 <h2>${cars.name}</h2>
-                <p><img class" src=${cars.imgURL}></p>
+                <p><img class="picture" src=${cars.imgURL}></p>
                 <p>Year: ${cars.year}</p>
                 <p>Cost: ${cars.cost}</p>
                 </div>

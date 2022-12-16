@@ -83,26 +83,27 @@ h5 {
   box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
 
-#container {
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 2%;
 }
 
-.inner{
+#inner{
 background-color: var(--secondary);
-border: 20px solid;
+border: solid black 1rem;
 border-radius: 6%;
 width: 62rem;
 height: 70rem;
 margin: 2%;
 font-size: 6rem;
+
 }
 
-img {
-  width: 80%;
-  height: 70%;
-  margin: 10%;
-}
 
+.picture{
+  height: 40rem;
+  justify-content: center;
+  width: auto;
+}

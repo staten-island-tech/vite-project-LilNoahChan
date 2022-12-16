@@ -3,25 +3,25 @@ const cars = [
         name: "BMW 320i",
         year: 2008,
         cost: 32000,
-        imgURL: "https://file.kelleybluebookimages.com/kbb/base/evox/CP/10402/2015-BMW-3%20Series-front_10402_032_2400x1800_300.png" ,
+        imgURL: "https://s3.us-east-2.amazonaws.com/dealer-inspire-vps-vehicle-images/stock-images/chrome/61724f9f6b0802d56ca5ca1ac7a1b213.png" ,
     },
     {
         name: "Audi A6",
         year:2014,
         cost: 36000,
-        imgURL: "https://file.kelleybluebookimages.com/kbb/base/evox/CP/9033/2014-Audi-A6-front_9033_032_1811x732_L8L8_cropped.png",
+        imgURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHFQXKnc_8ogYVxZ_OzzegEE86SMBlfTLqwK4F_h6qtrab7G-i",
     },
     {
         name: "Opel Astra",
         year: 1996,
         cost: 11000,
-        imgURL: "https://oilincar.com/im/cars_im/opel/astra/f-1991-2000.png",
+        imgURL: "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/opel-astra-index.png",
     },
     {
         name: "Volkswagen Passat",
         year: 2002,
         cost: 20000,
-        imgURL: "https://www.tirerack.com/images/wheelvisualizer/vehicles/Volkswagen/Passat_GLS_New_01/mainveh.0passat.15.Mojave_Beige.png",
+        imgURL: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ0sNaqSztEeFwvy8PwNdZSz38VrKeh5qGwFIfuyA1PRytkByjX",
     },
     {
         name: "Citroen C2",
@@ -33,7 +33,7 @@ const cars = [
         name: "Peugeot 407",
         year: 2004,
         cost: 17000,
-        imgURL: "https://www.travall.com//pub/media/catalog/product/0/7/0734-peugeot-407-sedan-banner.png",
+        imgURL: "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_low/v1/editorial/vhs/Peugeot-3008.png",
     },
 
 ];
