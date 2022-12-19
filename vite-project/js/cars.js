@@ -14,7 +14,7 @@ const cars = [
     {
         name: "Opel Astra",
         year: 1996,
-        cost: 11000,
+        cost: 21000,
         imgURL: "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/opel-astra-index.png",
     },
     {
@@ -35,6 +35,19 @@ const cars = [
         cost: 17000,
         imgURL: "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_low/v1/editorial/vhs/Peugeot-3008.png",
     },
+    {
+        name: "Ferrari",
+        year: 1998,
+        cost: 40000,
+        imgURL: "https://www.motortrend.com/uploads/sites/10/2017/11/2015-ferrari-california-t-convertible-angular-front.png",
+    },
+    {
+        name: "Bugatti",
+        year: 2017,
+        cost: 39000,
+        imgURL: "https://tadvantagewebsites-com.cdn-convertus.com/uploads/sites/366/2020/10/JB_chiron.png",
+    },
+
 
 ];
 export { cars };
