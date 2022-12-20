@@ -4,7 +4,7 @@ button2: document.getElementById("b2"),
 button3: document.getElementById("b3"),
 button4: document.getElementById("b4"),
 button5: document.getElementById("b5"),
-button5: document.getElementById("b6"),
+button6: document.getElementById("b6"),
 
 box: document.getElementById("container"),
 };

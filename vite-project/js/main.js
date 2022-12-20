@@ -9,10 +9,10 @@ const commands = {
       DOMselectors.box.insertAdjacentHTML(
         "beforeend",
         `
-                <div id="inner">
+                <div class="inner">
                 <h2>${cars.name}</h2>
                 <p><img class="picture" src=${cars.imgURL}></p>
-                <p>Condition: ${cars.year}</p>
+                <p>Status: ${cars.year}</p>
                 <p>Price: ${cars.cost}</p>
                 </div>
               `
@@ -20,15 +20,16 @@ const commands = {
     });
   },
   FilterOld: function () {
-    cars.filter((cars) => cars.year.includes("Old"))
+    cars
+      .filter((cars) => cars.year.includes("Old"))
       .forEach((cars) => {
         DOMselectors.box.insertAdjacentHTML(
           "beforeend",
           `
-                <div id="inner">
+                <div class="inner">
                 <h2>${cars.name}</h2>
                 <p><img class="picture" src=${cars.imgURL}></p>
-                <p>Condition: ${cars.year}</p>
+                <p>Status: ${cars.year}</p>
                 <p>Price: ${cars.cost}</p>
                 </div>
               `
@@ -37,15 +38,16 @@ const commands = {
   },
 
   FilterNew: function () {
-    cars.filter((cars) => cars.year.includes("New"))
+    cars
+      .filter((cars) => cars.year.includes("New"))
       .forEach((cars) => {
         DOMselectors.box.insertAdjacentHTML(
           "beforeend",
           `
-                <div id="inner">
+                <div class="inner">
                 <h2>${cars.name}</h2>
                 <p><img class="picture" src=${cars.imgURL}></p>
-                <p>Condition: ${cars.year}</p>
+                <p>Status: ${cars.year}</p>
                 <p>Price: ${cars.cost}</p>
                 </div>
               `
@@ -54,15 +56,16 @@ const commands = {
   },
 
   FilterExpensive: function () {
-    cars.filter((cars) => cars.cost.includes("Expensive"))
+    cars
+      .filter((cars) => cars.cost.includes("Expensive"))
       .forEach((cars) => {
         DOMselectors.box.insertAdjacentHTML(
           "beforeend",
           `
-                <div id="inner">
+                <div class="inner">
                 <h2>${cars.name}</h2>
                 <p><img class="picture" src=${cars.imgURL}></p>
-                <p>Condition: ${cars.year}</p>
+                <p>Status: ${cars.year}</p>
                 <p>Price: ${cars.cost}</p>
                 </div>
               `
@@ -70,21 +73,59 @@ const commands = {
       });
   },
   FilterCheap: function () {
-    cars.filter((cars) => cars.cost.includes("Cheap"))
+    cars
+      .filter((cars) => cars.cost.includes("Cheap"))
       .forEach((cars) => {
         DOMselectors.box.insertAdjacentHTML(
           "beforeend",
           `
-                <div id="inner">
+                <div class="inner">
                 <h2>${cars.name}</h2>
                 <p><img class="picture" src=${cars.imgURL}></p>
-                <p>Condition: ${cars.year}</p>
+                <p>Status: ${cars.year}</p>
                 <p>Price: ${cars.cost}</p>
                 </div>
               `
         );
       });
   },
+FilterCheap: function () {
+    cars
+      .filter((cars) => cars.cost.includes("Cheap"))
+      .forEach((cars) => {
+        DOMselectors.box.insertAdjacentHTML(
+          "beforeend",
+          `
+                <div class="inner">
+                <h2>${cars.name}</h2>
+                <p><img class="picture" src=${cars.imgURL}></p>
+                <p>Status: ${cars.year}</p>
+                <p>Price: ${cars.cost}</p>
+                </div>
+              `
+        );
+      });
+  },
+  FilterAll: function () {
+    cars
+      .filter((cars) => cars.iscar.includes("Yes"))
+      .forEach((cars) => {
+        DOMselectors.box.insertAdjacentHTML(
+          "beforeend",
+          `
+                <div class="inner">
+                <h2>${cars.name}</h2>
+                <p><img class="picture" src=${cars.imgURL}></p>
+                <p>Status: ${cars.year}</p>
+                <p>Price: ${cars.cost}</p>
+                </div>
+              `
+        );
+      });
+  },
+
+
+
   remove: function () {
     let card = document.querySelectorAll(".inner");
     card.forEach((card) => {
@@ -93,22 +134,26 @@ const commands = {
   },
 };
 
-
 commands.createcards();
-DOMSelectors.button3.addEventListener("click", function () {
+
+DOMselectors.button3.addEventListener("click", function () {
   commands.remove();
   commands.FilterOld();
 });
 
-DOMSelectors.button4.addEventListener("click", function () {
+DOMselectors.button4.addEventListener("click", function () {
   commands.remove();
   commands.FilterNew();
 });
-DOMSelectors.button5.addEventListener("click", function () {
+DOMselectors.button6.addEventListener("click", function () {
+  commands.remove();
+  commands.FilterCheap();
+});
+DOMselectors.button5.addEventListener("click", function () {
   commands.remove();
   commands.FilterExpensive();
 });
-DOMSelectors.button6.addEventListener("click", function () {
+DOMselectors.button2.addEventListener("click", function () {
   commands.remove();
-  commands.FilterCheap();
+  commands.FilterAll();
 });

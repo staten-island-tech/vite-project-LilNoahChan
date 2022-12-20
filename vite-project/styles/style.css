@@ -90,7 +90,7 @@ h5 {
   margin: 2%;
 }
 
-#inner{
+.inner{
 background-color: var(--secondary);
 border: solid black 1rem;
 border-radius: 6%;
