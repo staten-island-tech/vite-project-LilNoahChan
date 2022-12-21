@@ -12,12 +12,12 @@ box: document.getElementById("container"),
 export { DOMselectors };
 
 DOMselectors.button.addEventListener("click", function () {
-  if (document.body.classList.contains("light")) {
-    document.body.classList.add("dark");
-    document.body.classList.remove("light");
+  if (document.body.classList.contains("bluemode")) {
+    document.body.classList.add("orangemode");
+    document.body.classList.remove("bluemode");
     
   } else {
-    document.body.classList.add("light");
-    document.body.classList.remove("dark");
+    document.body.classList.add("bluemode");
+    document.body.classList.remove("orangemode");
   }
 });

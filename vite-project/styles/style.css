@@ -10,15 +10,15 @@ body,
 }
 
 :root {
-  --blackish: #15202B;
-  --white: #fafafa;
-  --really-light-grey: #e4e5f1;
-  --gray: #22303C;
+  --orange:#FFA500;
+  --blue: #0000FF;
+  --baby-blue: #7EC8E3;
+  --kinda-red: #FBBF77;
 
 
   /*Intentions */
-  --primary: var(--white);
-  --secondary: var(--really-light-grey);
+  --primary: var(--blue);
+  --secondary: var(--baby-blue);
 
   /*Typography */
   --h1: 7.594rem;
@@ -28,15 +28,15 @@ body,
   --h5: 1.5rem;
 }
 
-.dark {
-  --primary: var(--blackish);
-  --secondary: var(--gray);
+.orangemode {
+  --primary: var(--orange);
+  --secondary: var(--kinda-red);
 
 }
 
-.light {
-  --primary: var(--white);
-  --secondary: var(--really-light-grey);
+.bluemode {
+  --primary: var(--blue);
+  --secondary: var(--baby-blue);
 }
 
 .hero {
