@@ -89,7 +89,7 @@ const commands = {
         );
       });
   },
-FilterCheap: function () {
+  FilterCheap: function () {
     cars
       .filter((cars) => cars.cost.includes("Cheap"))
       .forEach((cars) => {
@@ -123,8 +123,6 @@ FilterCheap: function () {
         );
       });
   },
-
-
 
   remove: function () {
     let card = document.querySelectorAll(".inner");

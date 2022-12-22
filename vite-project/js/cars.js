@@ -1,6 +1,6 @@
 const cars = [
     {
-        name: "Ferrari Red",
+        name: "Porsche",
         year: "Old",
         cost: "Cheap",
         imgURL:
